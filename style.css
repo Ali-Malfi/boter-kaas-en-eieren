@@ -1,0 +1,127 @@
+body {
+    background-image: url(./img/one\ piece.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    /* margin-top: 10%; */
+    
+}
+
+#wrapper {
+    display: grid;
+    grid-template-columns: 122px 122px 122px;
+    grid-template-rows: 122px 122px 122px;
+    margin-left: 37%;
+    margin-top: 10%;
+   text-align: center;
+   max-width: 390px;
+   gap: 10px;
+   cursor: pointer;
+   background-color: aliceblue;
+   box-shadow: rgba(255, 255, 255, 0.25) 50px 54px 55px, rgba(255, 255, 255, 0.12) 50px 50px 50px, rgba(255, 255, 255, 0.12) 50px 50px 50px, rgba(255, 255, 255, 0.17) 50px 50px 50px, rgba(255, 255, 255, 0.09) 50px 50px 50px;
+   
+}
+
+
+.tile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box1 {
+    background-color: rgba(214, 12, 89, 0.74);
+    border: 2px solid black;
+}
+.box1:hover{background-color: white;}
+.box2 {
+    border: 2px solid black;
+    background-color: rgba(252, 13, 13, 0.836);
+}
+.box2:hover{background-color: white;}
+.box3 {
+    border: 2px solid black;
+    background-color: rgba(12, 218, 39, 0.836);
+}
+.box3:hover{background-color: white;}
+.box4 {
+    border: 2px solid black;
+    background-color: rgba(117, 113, 126, 0.836);
+}
+.box4:hover{background-color: white;}
+.box5 {
+    border: 2px solid black;
+    background-color: rgba(238, 234, 215, 0.836);
+}
+.box5:hover{background-color: white;}
+.box6 {
+    border: 2px solid black;
+    background-color: rgba(255, 158, 11, 0.897);
+}
+.box6:hover{background-color: white;}
+.box7 {
+    border: 2px solid black;
+    background-color: rgba(72, 177, 226, 0.836);
+}
+.box7:hover{background-color: white;}
+.box8 {
+    border: 2px solid black;
+    background-color: rgba(218, 12, 201, 0.836);
+}
+.box8:hover{background-color: white;}
+.box9 {
+    border: 2px solid black;
+    background-color: rgba(11, 97, 255, 0.836);
+}
+.box9:hover{background-color: white;
+}
+
+.restart {
+    margin-left: 1050px;
+    margin-top: 20px;
+    position: absolute;
+    top: 50%;
+    background-color: rgb(0, 224, 249);
+    border-radius: 8px;
+    padding: 20px;
+    border: none;
+    font-size: 30px;
+    
+}
+.restart:hover {
+    background-color: aliceblue;
+}
+#beurt {
+    margin-left: 1000px;
+    /* margin-top: 20px; */
+    position: absolute;
+    top: 70%;
+    background-color: white;
+    border-radius: 8px;
+    padding: 40px;
+    font-size: 30px;
+   
+}
+table {
+    background-color: aliceblue;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    
+}
+.pve {
+    background-color: aliceblue;
+    position: absolute;
+    top: 45%;
+    left: 11%;
+    
+}
+
